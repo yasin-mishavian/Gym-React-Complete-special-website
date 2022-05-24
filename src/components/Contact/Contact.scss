@@ -1,0 +1,61 @@
+
+.contact-Style1{
+  background: linear-gradient(105deg,rgba(0, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0.8 ) 52.9%,transparent 53%),url(../../img/44.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-Style{
+  background: transparent;
+  border: none;
+  border-color: transparent;
+  border-radius: 0px;
+  border-bottom: 2px solid #eee;
+  transition: all .8s;
+}
+
+.input-Style:focus{
+  background: transparent;
+  border: none;
+  border-color: transparent;
+  border-radius: 0px;
+  border-bottom: 2px solid #c20707;        
+}
+
+.contact-Style3{
+  background-color: #2980b9;
+  color: #eee;
+  transition: all .3s;
+}
+
+.contact-Style3:hover{
+  background-color: #3498db;
+  transform: translateY(-2px);
+}
+
+.label-Style{
+  color: #777;
+  display: block;
+  font-size: 19px;
+  margin-top: -130px;
+  margin-right: 4px;
+  transition: all .5s;
+}
+
+.input-Style:placeholder-shown + .label-Style {
+  transform:translate(20px , 20px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media(max-width:990px){
+  .contact-Style1{
+  background: linear-gradient(105deg,rgba(0, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0.8 )),url(../../img/8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 550px;
+  margin: auto;
+  max-height: 600px;    
+}}

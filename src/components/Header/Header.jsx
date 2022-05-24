@@ -1,7 +1,8 @@
 import React from 'react'
 import $ from "jquery";
+import "./Header.scss";
 
-const HeaderNav = () => { 
+const Header = () => { 
         
     $(document).ready(function () {
         $(".nav-Style2").click(function () {
@@ -63,4 +64,4 @@ const HeaderNav = () => {
     )
 }
 
-export default HeaderNav
+export default Header

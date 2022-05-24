@@ -1,0 +1,29 @@
+@font-face {
+  font-family: BYekan;
+  src: url(./fonts/Yekan.ttf);
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: BYekan;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.rtl{
+  direction: rtl;
+}
+
+.LH-Style-1{
+  line-height: 30px;
+}
+
+.LH-Style-2{
+  line-height: 35px;
+}

@@ -1,9 +1,10 @@
 import React from 'react'
-import slide13 from './../assets/img/55.jpg'
-import slide14 from './../assets/img/56.jpg'
-import slide15 from './../assets/img/57.jpg'
+import slide13 from '../../img/55.jpg'
+import slide14 from '../../img/56.jpg'
+import slide15 from '../../img/57.jpg'
 import {AiFillStar , AiOutlineStar} from 'react-icons/ai'
 import {FaStarHalfAlt} from 'react-icons/fa'
+import "./Trainers.scss";
 
 const Trainers = () => {
     return (

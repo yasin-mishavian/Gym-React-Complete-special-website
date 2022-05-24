@@ -1,0 +1,95 @@
+
+.Header-Style{
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.85)),url(../../img/25.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*--------------------------------------   baner Style   --------------------------------------*/
+
+.baner-Style1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+
+/*--------------------------------------   baner animation   --------------------------------------*/
+
+.baner-Style2{
+  font-size: 80px;
+  animation-name: baner;
+  animation-duration: 1.8s;
+}
+
+@keyframes baner{
+  0%{ 
+      transform: translateX(-80%);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.baner-Style3{
+  animation-name: baner2;
+  animation-duration: 1.8s;
+}
+
+@keyframes baner2{
+  0%{ 
+      transform: translateX(80%);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/*--------------------------------------   Navbar Style   --------------------------------------*/
+
+.nav-Style1{
+  background: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.6));
+  padding: 25px;
+  transition: all .7s;
+}
+
+.nav-Style1-custom{
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.65));
+  padding: 2px 17px;
+}
+
+.nav-Style3{
+  font-size: 18px;
+  color: #eee;
+  transition: color .4s;
+}
+
+.nav-Style3:hover{
+  color: rgb(218, 178, 0);
+  transform: translateY(-1.5px);
+}
+
+.line1 , .line2 , .line3{
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  transition: all .6s;
+}
+
+.change .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .line2{
+  opacity: 0;
+}
+.change .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}

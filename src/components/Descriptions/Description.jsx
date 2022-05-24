@@ -2,9 +2,9 @@ import React from 'react'
 import {FaMedal} from 'react-icons/fa'
 import {FaTrophy} from 'react-icons/fa'
 import {RiMedalLine} from 'react-icons/ri'
-import slide1 from './../assets/img/47.jpg'
+import slide1 from '../../img/47.jpg'
 import $ from "jquery";
-
+import "./Description.scss";
 
 const Description = () => {
 
@@ -42,7 +42,8 @@ const Description = () => {
                             <p className='text-muted LH-Style-2 h5'>
                                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ 
                                 و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون 
-                                و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                                و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                            </p>
                         </div>
                     </div>
                     <div className='row my-5 rtl'>

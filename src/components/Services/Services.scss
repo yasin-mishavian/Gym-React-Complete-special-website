@@ -1,0 +1,79 @@
+.card-Style1{
+  box-shadow: 5px 8px 20px rgb(24, 24, 24);
+}
+
+.card-Style2{
+  box-shadow: 5px 8px 10px rgb(24, 24, 24);
+  line-height: 35px;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  font-size: 25px;
+  background-color: #2980b9;
+  width: 60%;
+  cursor: pointer;
+  opacity: .8;
+  transition: all .5s;
+}
+
+.card-Style2:hover{
+  opacity: 1;
+}
+
+.gallery-Style1{
+  color: #777;
+  cursor: pointer;
+  user-select: none;
+}
+
+.active-Style{
+  color: #70aed2;
+}
+
+.left-active{
+  animation-name:left ;
+  animation-duration: 2s;
+}
+
+.right-active{
+  animation-name:right ;
+  animation-duration: 2s;
+}
+
+.down-active{
+  animation-name: down ;
+  animation-duration: 2s;
+}
+
+@keyframes left{
+  0%{ 
+      transform: translateX(-10%);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes right{
+  0%{ 
+      transform: translateX(10%);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes down{
+  0%{ 
+      transform: translatey(17%);
+      opacity: 0;
+  }
+  100%{
+      transform: translatey(0);
+      opacity: 1;
+  }
+}

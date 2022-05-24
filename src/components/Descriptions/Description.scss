@@ -1,0 +1,57 @@
+.icon_Style{
+  width: 22%;
+  height: 22%;
+}
+
+.description-Style{
+  background-color: #151f20;
+}
+
+/*--------------------------------------   Description animation   --------------------------------------*/
+
+.opacity-Style{
+  animation-name: opacitys;
+  animation-duration: 2.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes opacitys{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+.description-Style2{
+  animation-name: des-2;
+  animation-duration: 2s;
+}
+
+.description-Style3{
+  animation-name: des-3;
+  animation-duration: 2s;
+}
+
+@keyframes des-2{
+  0%{ 
+      transform: translateX(-17%);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes des-3{
+  0%{ 
+      transform: translateX(15%);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0);
+      opacity: 1;
+  }
+}

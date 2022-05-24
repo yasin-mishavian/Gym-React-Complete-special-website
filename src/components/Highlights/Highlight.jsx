@@ -1,5 +1,6 @@
 import React from 'react'
 import $ from "jquery";
+import "./Highlight.scss";
 
 const Highlight = () => {
 

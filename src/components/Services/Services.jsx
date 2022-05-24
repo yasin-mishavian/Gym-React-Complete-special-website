@@ -1,8 +1,9 @@
 import React from 'react'
-import slide1 from './../assets/img/36.jpg'
-import slide2 from './../assets/img/34.jpg'
-import slide3 from './../assets/img/35.jpg'
+import slide1 from '../../img/36.jpg'
+import slide2 from '../../img/34.jpg'
+import slide3 from '../../img/35.jpg'
 import $ from "jquery";
+import "./Services.scss";
 
 const Services = () => {
 
