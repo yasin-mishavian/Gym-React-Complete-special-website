@@ -8,7 +8,7 @@
   transition: all .4s;
 }
 .highlight-Style1:hover , .highlight-Style2:hover , .highlight-Style3:hover{
-  transform: translateY(-2px);
+  transform: translateY(-4px);
 }
 
 .list-Style{
@@ -25,14 +25,11 @@
   border-radius: 25px;
   box-shadow: 5px 8px 18px #000;
   transition: all .4s;
+  &:hover{
+    background-color: #3498db;
+    transform: translateY(-2px);
+  }
 }
-
-.btn-Style:hover{
-  background-color: #3498db;
-  transform: translateY(-2px);
-}
-
-/*--------------------------------------   highlights-animation   --------------------------------------*/
 
 .highlight-animation{
   animation-name: hg-animation;

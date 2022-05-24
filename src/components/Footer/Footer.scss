@@ -3,11 +3,9 @@
   font-size: 17px;
   transition: all .4s;
   text-decoration: none;
-}
-
-.footer-Style:hover{
-  color: goldenrod;
-  
+  &:hover{
+    color: goldenrod;
+  }
 }
 
 .img-Style{

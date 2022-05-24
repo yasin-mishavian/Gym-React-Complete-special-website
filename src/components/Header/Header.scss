@@ -6,24 +6,21 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-}
-
-/*--------------------------------------   baner Style   --------------------------------------*/
-
-.baner-Style1{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50% , -50%);
-}
-
-
-/*--------------------------------------   baner animation   --------------------------------------*/
-
-.baner-Style2{
-  font-size: 80px;
-  animation-name: baner;
-  animation-duration: 1.8s;
+  .baner-Style1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+  }
+  .baner-Style2{
+    font-size: 80px;
+    animation-name: baner;
+    animation-duration: 1.8s;
+  }
+  .baner-Style3{
+    animation-name: baner2;
+    animation-duration: 1.8s;
+  }
 }
 
 @keyframes baner{
@@ -35,11 +32,6 @@
       transform: translateX(0);
       opacity: 1;
   }
-}
-
-.baner-Style3{
-  animation-name: baner2;
-  animation-duration: 1.8s;
 }
 
 @keyframes baner2{
@@ -58,7 +50,7 @@
 .nav-Style1{
   background: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.6));
   padding: 25px;
-  transition: all .7s;
+  transition: all .2s;
 }
 
 .nav-Style1-custom{
@@ -69,12 +61,11 @@
 .nav-Style3{
   font-size: 18px;
   color: #eee;
-  transition: color .4s;
-}
-
-.nav-Style3:hover{
-  color: rgb(218, 178, 0);
-  transform: translateY(-1.5px);
+  transition: all .2s;
+  &:hover{
+    color: rgb(218, 178, 0);
+    transform: translateY(-1.5px);
+  }
 }
 
 .line1 , .line2 , .line3{
