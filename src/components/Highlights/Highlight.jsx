@@ -1,21 +1,8 @@
 import React from 'react'
-import $ from "jquery";
 import "./Highlight.scss";
 
 const Highlight = () => {
 
-    $(window).scroll(function () {
-        const position = $(this).scrollTop();
-        if (position >= 4100) {
-          $(".highlight-Style1").addClass("highlight-animation");
-          $(".highlight-Style2").addClass("down-active");
-          $(".highlight-Style3").addClass("highlight-animation");
-        } else {
-          $(".highlight-Style1").removeClass("highlight-animation");
-          $(".highlight-Style2").removeClass("down-active");
-          $(".highlight-Style3").removeClass("highlight-animation");
-        }
-      });
       
     return (
         <>
